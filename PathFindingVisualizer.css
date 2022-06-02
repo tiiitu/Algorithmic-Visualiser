@@ -1,0 +1,93 @@
+.grid {
+    margin: 100px 0 0;
+}
+.suryansh{
+    border: none;
+    background-color: white;
+    color: skyblue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 12px;
+    border: 3px solid black; 
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.suryansh:hover{
+    background-color: black; 
+  color: white;
+}
+
+.steps{
+    margin: 100px 0 0;
+    color: rgb(1, 1, 17);
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px 5px skyblue;
+    text-transform: capitalize;
+    font-size: 350%;
+}
+.heading{
+    color: rgb(1, 1, 17);
+    text-align-last: center;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px 5px skyblue;
+    text-transform: capitalize;
+    font-size: 350%
+}
+.heading1{
+    color: rgb(1, 1, 17);
+    text-align-last: left;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px 5px skyblue;
+    text-transform: capitalize;
+    font-size: 225%;
+    text-indent: 20px;
+}
+
+.text{
+    color: rgb(1, 1, 17);
+    font-size: 200%;
+    text-align: justify;
+    font-weight: bold;
+    font-family:"papyrus",fantasy;
+    text-indent: 20px;
+}
+
+.reset{
+    margin-right: 50px;
+    border: none;
+    background-color: white;
+    color: skyblue;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 12px;
+    border: 3px solid black; 
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.reset:hover{
+    background-color: black; 
+  color: white;
+}
+.zoom {
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border:2px solid black;
+    padding: 50px 20px;
+    transition: transform .2s; /* Animation */
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
